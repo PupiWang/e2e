@@ -1,0 +1,14 @@
+# install webdriverio, selenium-standalone and jasmine
+npm i
+
+# install selenium standalone server
+selenium-standalone install
+
+# start selenium standalone server
+selenium-standalone start
+
+# run tests
+node_modules/.bin/wdio conf.js
+
+
+Enjoy~
