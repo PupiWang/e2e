@@ -2,10 +2,10 @@
 npm i
 
 # install selenium standalone server
-selenium-standalone install
+node_modules/.bin/selenium-standalone install
 
 # start selenium standalone server
-selenium-standalone start
+node_modules/.bin/selenium-standalone start
 
 # run tests
 node_modules/.bin/wdio conf.js
